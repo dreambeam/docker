@@ -1,7 +1,7 @@
 docker-redis
 ============
 
-Image for a redis-server acting as a cache, without persistence.
+Redis is an open source key-value store that functions as a data structure server.
 
 ## Usage
 ```
