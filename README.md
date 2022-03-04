@@ -5,7 +5,8 @@
 - Docker 1.12
 
 ## Services
-Tested services on local environment
+
+Tested services on local and AWS environment 
 
 - [apache]()
 - [zeppelin](https://github.com/dreambeam/docker/tree/master/zeppelin)
@@ -17,3 +18,4 @@ Tested services on local environment
 - [mysql8](https://github.com/dreambeam/docker/tree/master/mysql8)
 - [influxdb](https://github.com/dreambeam/docker/tree/master/influxdb)
 - [mattermost](https://github.com/dreambeam/docker/tree/master/mattermost)
+- [grafana](https://github.com/dreambeam/docker/tree/master/grafana)
