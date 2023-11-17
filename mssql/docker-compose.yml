@@ -1,5 +1,4 @@
----
-version: "3.1"
+version: "3.8"
 services:
   db:
     image: mcr.microsoft.com/mssql/server:2022-latest
@@ -9,4 +8,9 @@ services:
       - MSSQL_SA_PASSWORD=yourStrong!Password
     ports:
       - 1433:1433
+    volumes:
+      - ./db-files:/var/opt/mssql/backup
+#      - ./db-data:/var/opt/mssql
 
+#volumes:
+#  db-data:
