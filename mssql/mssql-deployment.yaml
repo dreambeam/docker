@@ -57,4 +57,4 @@ spec:
       volumes:
       - name: mssql-persistent-storage
         persistentVolumeClaim:
-          claimName: mssq-pv-claim
+          claimName: mssql-pv-claim
